@@ -1,0 +1,22 @@
+{
+  "name": "@zhangyiant/pycache-folder-cleaner",
+  "version": "1.0.0",
+  "description": "Clean __pycache__ folders.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yi Zhang",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@types/argparse": "^1.0.36",
+    "@types/node": "^10.0.0",
+    "@types/rimraf": "^2.0.2",
+    "argparse": "^1.0.10",
+    "rimraf": "^2.6.3"
+  }
+}
