@@ -1,6 +1,6 @@
 {
   "name": "@zhangyiant/pycache-folder-cleaner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Clean __pycache__ folders.",
   "main": "index.js",
   "scripts": {
