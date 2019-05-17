@@ -1,3 +1,3 @@
-"# pycache-folder-cleaner" 
+# pycache-folder-cleaner
 
-node index.js -d <root folder to clean>
+```node index.js -d <root folder to clean>```

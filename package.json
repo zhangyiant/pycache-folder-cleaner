@@ -1,6 +1,6 @@
 {
   "name": "@zhangyiant/pycache-folder-cleaner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Clean __pycache__ folders.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,9 @@
     "@types/rimraf": "^2.0.2",
     "argparse": "^1.0.10",
     "rimraf": "^2.6.3"
+  },
+  "bin":{
+    "pycache-folder-cleaner": "./index.js"
   }
+
 }
