@@ -3,7 +3,9 @@
   "version": "1.0.4",
   "description": "Clean __pycache__ folders.",
   "homepage": "https://github.com/zhangyiant/pycache-folder-cleaner",
-  "keywords": ["python"],
+  "keywords": [
+    "python"
+  ],
   "main": "index.js",
   "scripts": {
     "build": "tsc",
