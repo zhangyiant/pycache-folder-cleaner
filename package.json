@@ -1,6 +1,6 @@
 {
   "name": "@zhangyiant/pycache-folder-cleaner",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Clean __pycache__ folders.",
   "homepage": "https://github.com/zhangyiant/pycache-folder-cleaner",
   "keywords": [
