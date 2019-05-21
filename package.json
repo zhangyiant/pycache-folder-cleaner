@@ -6,7 +6,7 @@
   "keywords": [
     "python"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +24,6 @@
     "rimraf": "^2.6.3"
   },
   "bin": {
-    "pycache-folder-cleaner": "./index.js"
+    "pycache-folder-cleaner": "./dist/index.js"
   }
 }
