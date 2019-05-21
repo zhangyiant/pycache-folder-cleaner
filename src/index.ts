@@ -1,9 +1,7 @@
-#!/usr/bin/env node
 import * as fs from 'fs';
 import * as path from 'path';
 import rimfaf from 'rimraf';
-import * as process from 'process';
-import * as argparse from 'argparse';
+
 
 
 function walkDir(dir: string) {
@@ -23,19 +21,4 @@ function walkDir(dir: string) {
     })
 }
 
-let parser: argparse.ArgumentParser = new argparse.ArgumentParser(
-    {
-        addHelp: true,
-        description: "cleaner for __pycache__ folders"
-    }
-);
-parser.addArgument(
-    ['-d', '--directory'],
-    {
-        help: "Root directory to clean",
-        defaultValue: "."
-    }
-);
-
-let args = parser.parseArgs();
-walkDir(args["directory"]);
+export { walkDir as cleanPycache };

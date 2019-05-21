@@ -1,6 +1,6 @@
 {
   "name": "@zhangyiant/pycache-folder-cleaner",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Clean __pycache__ folders.",
   "homepage": "https://github.com/zhangyiant/pycache-folder-cleaner",
   "keywords": [
@@ -24,6 +24,6 @@
     "rimraf": "^2.6.3"
   },
   "bin": {
-    "pycache-folder-cleaner": "./dist/index.js"
+    "pycache-folder-cleaner": "./dist/cli.js"
   }
 }
